@@ -3,8 +3,7 @@
 An small proof of concept on how you can use NFC with a PWA [Flet](https://flet.dev/) app by doing using some cleaver hacks.
 
 
-
-https://github.com/jboirazian/NFC-IFTTT-Webhooks/assets/21143405/8b3ff606-c8c3-42d0-9f15-cacff67f1165
+https://github.com/jboirazian/NFC-IFTTT-Webhooks/assets/21143405/2d78d38b-75a4-42c0-ac65-1a162c0a2f92
 
 
 ### Does Flet support NFC ?
