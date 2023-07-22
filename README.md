@@ -3,13 +3,17 @@
 An small proof of concept on how you can use NFC with a PWA [Flet](https://flet.dev/) app by doing using some cleaver hacks.
 
 
+
+https://github.com/jboirazian/NFC-IFTTT-Webhooks/assets/21143405/8b3ff606-c8c3-42d0-9f15-cacff67f1165
+
+
 ### Does Flet support NFC ?
 
 **No** (at least for the moment...) , that being said you can take advantage of a feature of Progressive web applications in Android.
 
 ### PWA and Links:
 
-when you install an PWA app on your phone , and you click a link that corresponds to the URL of your hosted web app , your phone will open your installed PWA insted of opening a browser.
+When you install an PWA app on your phone , and you click a link that corresponds to the URL of your hosted web app , your phone will open your installed PWA insted of opening a browser.
 
 This means that if you write an NFC tag with a link of your hosted web app , you can do some pretty cool things that normally are not possible by default on Android.
 
@@ -56,3 +60,12 @@ With IFTTT you can also pass up to 3 arguments to your url:
 ```
 https://{your_hosted_url}/#/{your_ifttt_event_name}/with/key/{webhooks_key}?value1=value1&value2=value2&value3=value3
 ```
+
+### My IFTTT integration Example:
+
+for this case I used the following automation:
+
+![sample3](https://github.com/jboirazian/NFC-IFTTT-Webhooks/assets/21143405/7f8bf337-348d-4a40-a310-98776cd036d0)
+
+
+
